@@ -1,0 +1,28 @@
+{
+  "name": "gfcc-website-redesign",
+  "version": "1.0.0",
+  "description": "Workflow for GFCC Website Redesign project ",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbernier93/GFCC-Website-Redesign.git"
+  },
+  "author": "Robert Bernier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbernier93/GFCC-Website-Redesign/issues"
+  },
+  "homepage": "https://github.com/rbernier93/GFCC-Website-Redesign#readme"
+}
