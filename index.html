@@ -5,35 +5,43 @@
     <meta charset="utf-8">
     <title>Repository Landing pages</title>
 </head>
-
+<style media="screen">
+  span{
+     color:red;
+  }
+</style>
 <body>
-    <div style="width:600px;">
+    <div style="max-width:800px;">
         <h1>GFCC-Website-Redesign</h1>
 
         <p>Website redesign template for the Greater Framingham Community Church.</p>
         <hr/>
         <h2 style="color:#305586;">TABLE OF CONTENTS</h2>
         <nav>
-          <ul>
-            <li>Project Information</li>
             <ul>
-              <li><a href="#purpose">Purpose of Project</a></li>
-              <li><a href="#objectives">Objectives</a></li>
-              <li><a href="#criticalsuccess">Critical Success Factors</a></li>
+                <li>Project Information</li>
+                <ul>
+                    <li><a href="#purpose">Purpose of Project</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                    <li><a href="#criticalsuccess">Critical Success Factors</a></li>
+                </ul>
+                <li>Developer Documentation</li>
+                <ul>
+                    <li><a href="#howto">Understanding the Repository</a></li>
+                    <ul>
+                      <li><a href="#edit">Editing Files</a></li>
+                    </ul>
+                    <li><a href="#listoffiles">List of Files Located in dist/html Directory</a></li>
+                </ul>
             </ul>
-            <li>Developer Documentation</li>
-            <ul>
-              <li><a href="#howto">Understanding the Repository</a></li>
-            </ul>
-          </ul>
         </nav>
         <hr/>
-        <h3>PURPOSE:</h3>
+        <h3 id="purpose">PURPOSE:</h3>
 
         <p>The purpose of this project is to give the Greater Framingham Community Church four web pages that showcase a potential redesign direction. At the end of this project, we will present GFCC with all repository assets and recommend a web design
             firm that is best suited for undertaking a full website redesign.</p>
-        <hr/>
-        <h3>OBJECTIVES:</h3>
+
+        <h3 id="objectives">OBJECTIVES:</h3>
         <ol>
             <li>Implement a modern design
                 <li>Add widgets for blogging and other social media tools</li>
@@ -42,18 +50,43 @@
                 <li>Create four sample pages of redesign (wireframes / source code)</li>
                 <li>Develop style documentation</li>
         </ol>
-        <hr/>
-        <h3>CRITICAL SUCCESS FACTORS:</h3>
+
+        <h3 id="criticalsuccess">CRITICAL SUCCESS FACTORS:</h3>
         <ol>
             <li>Higher Web traffic</li>
             <li>More registered users</li>
             <li>Less calls in the office regarding information</li>
             <li>More viewers checking the calendar</li>
         </ol>
+
+        <h3 id="howto">UNDERSTANDING THE REPOSITORY:</h3>
+        <p>The repository is made up of many folders and files. The index file you are currently viewing is located within the root directory of the repository. Within the root directory are several folders and files. The purpose of each older / file is
+            listed below accoring to alphabetical order.</p>
+        <ul>
+            <li>Folders</li>
+            <ul>
+                <li><strong>_src</strong> - location containing all html, css, js, and sass files. All developer editing should be done in this folder.</li>
+                <li><strong>dist</strong> - location where all processed files will be dumped after gulp processes are run.</li>
+                <li><strong>node_modules</strong> - location that contains all information needed for gulp processes. Should not be touched.</li>
+            </ul>
+            <li>Files</li>
+            <ul>
+                <li><strong>Gulpfile.js</strong> - File that contains all processes. This is the file that runs when "gulp" is run from the terminal or git bash.</li>
+                <li><strong>index.html</strong> - The current file being displayed.</li>
+                <li><strong>package.json</strong> - json file that contains information regarding this repository including all its dependencies and github information.</li>
+                <li><strong>readme.md</strong> - readme containing details on the project including the previously mentioned purpose, objectives, and critical success factors. contents are subject to change over the course of the project.</li>
+            </ul>
+        </ul>
+        <h4 id="edit">EDITING FILES</h4>
+        <p>In order to edit the repository and take advantage of all automation tools that are included, first open the whole folder in your favorite text editor. navigate to the _src folder. This is the location where you will be working on all files. DO NOT work on files located in the dist folder as these are automatically generated files and will be overwritten by files in the _src folder.</p>
+        <p>make sure you have <a href="https://git-scm.com/">git</a> installed on our machine as well as <a href="https://nodejs.org/en/">node.js</a>. Once both programs are installed, you should be able to install gulp globally on your machine. do so by going to your terminal or git bash and typing <span>npm install gulp -g</span>. Once this is complete you should be ready to run gulp processes. navigate to the loation of the repository and type <span>npm install gulp -g</span>. This will encure that the node_modules folder has the most up-to-date versions.</p>
+        <p>Now run 'gulp' in your terminal. you should see a list of processes appear. If this is the case, gulpfile.js was successful in running. A webbrowser should open a new tab to a page resembling this documentation. You can now return to your _src folder and start to make changes. As you save your changes thaey will be automatically recognized by the gulp processes and be added to the dist folder. Finally, the web browser tab will refresh to reflect these changes. open any file within the dist folder from localhost:300/dist/html/"your_file.html". <a href="#listOfLinks">Click here or see below</a> for a list of links to pages loacted in the "/dist/html/" folder.</p>
+        <h3 id="listoffiles">LIST OF FILES LOCATED IN DIST/HTML</h3>
+        <ul>
+          <li><a href="./dist/html/index.html">GFCC Homepage</a></li>
+        </ul>
         <hr/>
         <p>This project was assigned as part of the BUIS 460: Information Systems Management course at Framingham State University.</p>
-
-        <p>Go to <a href="./dist/html/index.html">this link</a> for the homepage.</p>
     </div>
 </body>
 
