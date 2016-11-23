@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     minifyCSS = require('gulp-clean-css'),
-    sitemap = require('gulp-sitemap'),
+    sourcemaps = require('gulp-sourcemaps'),
     browserSync = require('browser-sync');
 
 gulp.task('html', function() {
@@ -14,14 +14,18 @@ gulp.task('html', function() {
 
 gulp.task('css', function() {
   return gulp.src(["./_src/css/*.css"])
+        .pipe(sourcemaps.init())
         .pipe(concat('main.css'))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./dist/css'))
         .pipe(browserSync.stream());
 });
 
 gulp.task('sass', function () {
-    return gulp.src("./_src/css_scss/*.scss")
+  return gulp.src("./_src/css_scss/*.scss")
+        .pipe(sourcemaps.init())
         .pipe(sass())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest("./dist/css"))
         .pipe(browserSync.stream());
 });
