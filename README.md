@@ -2,17 +2,6 @@
 
 Website redesign template for the Greater Framingham Community Church.
 
-TABLE OF CONTENTS
-
-Project Information
-Purpose
-Objectives
-Critical Success Factors
-Developer Documentation
-Understanding the Repository
-Editing Files
-List of Files Located in dist/html Directory
-
 PURPOSE:
 
 The purpose of this project is to give the Greater Framingham Community Church four web pages that showcase a potential redesign direction. At the end of this project, we will present GFCC with all repository assets and recommend a web design firm that is best suited for undertaking a full website redesign.
