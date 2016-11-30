@@ -31,7 +31,7 @@ node_modules - location that contains all information needed for gulp processes.
 
 Files
 Gulpfile.js - File that contains all processes. This is the file that runs when "gulp" is run from the terminal or git bash.
-index.html - The current file being displayed.
+index.html - Main landing page file with information identical to the readme file.
 package.json - json file that contains information regarding this repository including all its dependencies and github information.
 readme.md - readme containing details on the project including the previously mentioned purpose, objectives, and critical success factors. contents are subject to change over the course of the project.
 
