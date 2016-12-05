@@ -1,5 +1,5 @@
 .who-we-are {
-    background-image: url("../img/homepage/carousel/banner-img01.jpg");
+    background-image: url("../img/homepage/parallax/IMG_5972.jpg");
     background-position: center top;
     background-size: 100% 400px;
     /* For parallax effect*/
@@ -15,14 +15,17 @@
     h1 {
         font-size: 60px;
     }
-    p{
-      font-size:25px;
+
+    p {
+        font-size: 25px;
     }
-    a>i{
-      font-size: 90px;
+
+    a > i {
+        font-size: 90px;
     }
+
     .text-field {
-        background-color: rgba(0, 0, 0, 0.39);
+        background-color: rgba(#292929, 0.87);
         padding: 20px 30px;
 
         a {
@@ -31,16 +34,28 @@
         }
     }
 }
+
+.event-button {
+    margin: 10px 0;
+    width: 175px;
+}
 @media(max-width: 700px) {
+    .event-button {
+        width:70%;
+        margin: 10px 15%;
+    }
+
     .who-we-are {
         h1 {
             font-size: 30px;
         }
-        p{
-          font-size: 15px;
+
+        p {
+            font-size: 15px;
         }
-        a>i{
-          font-size: 60px;
+
+        a > i {
+            font-size: 60px;
         }
     }
 }
