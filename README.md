@@ -2,17 +2,6 @@
 
 Website redesign template for the Greater Framingham Community Church.
 
-TABLE OF CONTENTS
-
-Project Information
-Purpose
-Objectives
-Critical Success Factors
-Developer Documentation
-Understanding the Repository
-Editing Files
-List of Files Located in dist/html Directory
-
 PURPOSE:
 
 The purpose of this project is to give the Greater Framingham Community Church four web pages that showcase a potential redesign direction. At the end of this project, we will present GFCC with all repository assets and recommend a web design firm that is best suited for undertaking a full website redesign.
@@ -42,7 +31,7 @@ node_modules - location that contains all information needed for gulp processes.
 
 Files
 Gulpfile.js - File that contains all processes. This is the file that runs when "gulp" is run from the terminal or git bash.
-index.html - The current file being displayed.
+index.html - Main landing page file with information identical to the readme file.
 package.json - json file that contains information regarding this repository including all its dependencies and github information.
 readme.md - readme containing details on the project including the previously mentioned purpose, objectives, and critical success factors. contents are subject to change over the course of the project.
 
