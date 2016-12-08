@@ -1,0 +1,33 @@
+.mens-ministry {
+ background-image: url("../img/ministry/img4.jpg");
+ background-position: center top;
+ background-size: 100% 400px;
+ /* For parallax effect*/
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /*parallax styling end*/
+ text-align: center;
+ background-color: #0085ff ;
+ color: #FFFFFF ; }
+ .mens-ministry h1 {
+   font-size: 60px; }
+ .mens-ministry p {
+   font-size: 25px; }
+ .mens-ministry a > i {
+   font-size: 90px; }
+ .mens-ministry .text-field {
+   background-color: rgba(0, 0, 0, 0.39);
+   padding: 20px 30px; }
+   .mens-ministry .text-field a {
+     margin: 20px 30px;
+     color: white; }
+
+@media (max-width: 700px) {
+ .who-we-are h1 {
+   font-size: 30px; }
+ .who-we-are p {
+   font-size: 15px; }
+ .who-we-are a > i {
+   font-size: 60px; } }
