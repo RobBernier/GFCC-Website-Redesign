@@ -2,6 +2,8 @@
 
 Website redesign template for the Greater Framingham Community Church.
 
+GIHUB REPO: https://github.com/rbernier93/GFCC-Website-Redesign
+
 PURPOSE:
 
 The purpose of this project is to give the Greater Framingham Community Church four web pages that showcase a potential redesign direction. At the end of this project, we will present GFCC with all repository assets and recommend a web design firm that is best suited for undertaking a full website redesign.
